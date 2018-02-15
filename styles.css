@@ -105,6 +105,30 @@ a img{border:0px;}
 #experience .col-mid{margin:0px 65px;}
 
 /****************************************************/
+/* EDUCATION SECTION */
+/****************************************************/
+
+#education{margin:0px 43px; padding-top:115px;}
+#education .col{
+	width:235px;
+	float:left;
+}
+#education .content{overflow:auto;}
+#education .col-mid{margin:0px 65px;}
+
+/****************************************************/
+/* SKILLS SECTION */
+/****************************************************/
+
+#skills{margin:0px 43px; padding-top:115px;}
+#skills .col{
+	width:235px;
+	float:left;
+}
+#skills .content{overflow:auto;}
+#skills .col-mid{margin:0px 65px;}
+
+/****************************************************/
 /* WORK SECTION */
 /****************************************************/
 
