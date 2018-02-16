@@ -1,224 +1,560 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>My Profile</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>	
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Arpit Gambhir's Profile</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
 <body>
-<div id="header">
-	<div id="logo"></div>
-	<ul id="main-menu">
-    	<li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-		<li><a href="#education">Education</a></li>
-		<li><a href="#skills">Skills</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#connect">Connect</a></li>
-    </ul>
-</div>
 
-<div id="container">
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-<!--Begin About Section-->
-    <div id="about">
-    	<h1>About</h1>
-        <ul id="top-social">
-        	<li><a href="https://www.linkedin.com/in/arpitgambhir/" class="linkedin">LinkedIn</a></li>
-			<li><a href="https://github.com/arpitgambhir" class="github">GitHub</a></li>
-			<li><a href="docs/ARPIT_GAMBHIR.pdf" class="resume">Resume</a></li>
-        </ul>
-        <div class="top-divider"></div>
-        <div class="content">
-        	<img src="images/ArpitGambhir.JPG" width="40%" height="40%"/>
-            <h2>My Name is <b>Arpit Gambhir</b>, and I am a Computer Engineer</h2>
-            <p>I am currently working at HADE Technologies as a Machine Learning Intern, and I am looking for full time opportunities in the field of Data Science/Machine Learning. </p> 
-        
-        </div>
-    <div class="bottom-divider"></div> 
-    </div>
-<!--End About Section-->
+      <nav id="nav-wrap">
 
-<!--Begin Experience Section-->   
-    <div id="experience">
-    	<h1>Experience</h1>
-        <div class="top-divider"></div>
-        <div class="content">
-            <div class="rows">
-			<h2><b>HADE Technologies <span style="float:right;">June 2017 - Present</span></b></h2>
-            <h3><b>Machine Learning Intern</b></h3>
-			<ul>
-				<li>Designing and developing machine learning models.</li>
-				<li>Performing visualization of all the given data.</li>
-				<li>Presenting and interpreting the output of predictive models.</li>
-			</ul>
-            </div>
-            
-            
-            <div class="rows">
-            <h2><b>GlobalLogic Technologies <span style="float:right;">November 2015 - July 2016</span></b></h2>
-			<h3><b>Associate Analyst</b></h3>
-            <ul>
-				<li>Manipulating, cleansing and processing data.</li>
-				<li>Data entry, data auditing, creating data reports and monitoring all data for accuracy.</li>
-				<li>Data analysis, management and finally populating the target data sets.</li>
-				<li>Analyzing raw data, drawing conclusions and developing recommendations.</li>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Arpit Gambhir.</h1>
+            <h3>I'm an Orlando based <span>Computer Engineer</span>, <span>and an aspiring Data Scientist</span> working as a Co-director of Machine Learning 
+			Programs at HADE Technologies. Let's <a class="smoothscroll" href="#about">scroll down</a>
+            to learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/arpitgambhir/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/arpitgambhir"><i class="fa fa-github"></i></a></li>
             </ul>
-			</div>
-        </div>    
-        <div class="bottom-divider"></div>
-    </div>
-<!--End Experience Section-->
+         </div>
+      </div>
 
-<!--Begin Education Section-->   
-    <div id="education">
-    	<h1>Education</h1>
-        <div class="top-divider"></div>
-        <div class="content">
-            <div class="rows">
-			<h2><b>University of Central Florida <span style="float:right;">August 2016 - May 2018</span></b></h2>
-            <h3><b>Master of Science in Computer Engineering</b></h3>
-			<ul>
-				<li>Relevant courses - Computer Vision, Natural Language Processing, Data Analytics for Power Systems</li>
-			</ul>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I'm currently working at HADE Technologies as a Machine Learning Intern, and I'm also pursuing my masters in computer engineering with a focus
+			on machine learning/data science. I'm looking for full time opportunities, so if you like my profile, feel free to contact me.
+            </p>
+
+            <div class="row">
+
+
+               <div class="columns download">
+                  <p>
+                     <a href="docs/ARPIT_GAMBHIR.docx" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>HADE Technologies</h3>
+                  <p class="info">Machine Learning Intern <span>&bull;</span> <em class="date">June 2017 - Present</em></p>
+
+                  <p>
+                    ●	Designing and developing machine learning models.<br>
+					●	Performing visualization of all the given data.<br>
+					●	Presenting and interpreting the output of predictive models.<br>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>GlobalLogic Technologies</h3>
+                  <p class="info">Associate Analyst <span>&bull;</span> <em class="date">November 2015 - July 2016</em></p>
+
+                  <p>
+                    ●	Manipulating, cleansing and processing data.<br>
+					●	Data entry, data auditing, creating data reports and monitoring all data for accuracy.<br>
+					●	Data analysis, management and finally populating the target data sets.<br>
+					●	Analyzing raw data, drawing conclusions and developing recommendations.<br>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+	  
+	  <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Central Florida</h3>
+				  <p class="info"> Orlando, FL</p>
+                  <p class="info"><b>MS in Computer Engineering</b> <span>&bull;</span> <em class="date">August 2016 - May 2018 (Expected)</em></p>
+
+                  <p>
+                  Relevant Courses - Computer Vision, Natural Language Processing, Data Analytics in Power Systems
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+			<div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Online</h3>
+                  <p class="info"><b>MOOCs</b> <span>&bull;</span> <em class="date">January 2017 - Present</em></p>
+
+                  <p>
+                  Machine Learning (Coursera), Machine Learning A-Z (Udemy), Data Science A-Z (Udemy), Deep Learning Specialization (Coursera), Deep Learning A-Z (Udemy)
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+			
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Guru Gobind Singh Indraprastha University</h3>
+				  <p class="info"> New Delhi, India</p>
+                  <p class="info"><b>B.Tech. in Instrumentation and Control Engineering</b> <span>&bull;</span> <em class="date">August 2011 - May 2015</em></p>
+
+                  <p>
+                  Relevant Courses - Data Structures, Object Oriented Programming
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      
+	  <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>Programming Languages
+            </h2>
+			<br>
+				<div class="bars">
+
+				    <ul class="skills">
+						<li><span class="bar-expand python"></span><em>Python</em></li>
+						<li><span class="bar-expand matlab"></span><em>MATLAB</em></li>
+						<li><span class="bar-expand cpp"></span><em>C++</em></li>
+						<li><span class="bar-expand html"></span><em>HTML</em></li>
+					</ul>
+
+				</div><!-- end programming languages bars -->
+			
+			<h2>Libraries
+            </h2>
+			<br>
+				<div class="bars">
+
+				    <ul class="skills">
+						<li><span class="bar-expand scikit"></span><em>Scikit-Learn, Tensorflow, Keras</em></li>
+						<li><span class="bar-expand pandas"></span><em>Pandas, NumPy, SciPy</em></li>
+						<li><span class="bar-expand seaborn"></span><em>Matplotlib, Seaborn, Plotly</em></li>
+					</ul>
+
+				</div><!-- end libraries bars -->
+			
+			<h2>Tools
+            </h2>
+			<br>
+				<div class="bars">
+
+				    <ul class="skills">
+						<li><span class="bar-expand tableau"></span><em>Tableau</em></li>
+						<li><span class="bar-expand sql"></span><em>SQL, MySQL</em></li>
+						<li><span class="bar-expand etl"></span><em>ETL</em></li>
+					</ul>
+
+				</div><!-- end tools-bars -->
+			
+		</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Projects.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/project.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>House Price Prediction</h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+			<div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/project.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Titanic Survival Prediction</h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/project.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Credit Card Fraud Detection</h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/project.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>FCW Using Machine Learning</h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/project.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Human Resources Analytics</h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>House Price Prediction</h4>
+			      <p>Implemented a machine learning model to predict the price of houses; used the dataset from Kaggle; used Gradient Boosting Regressor to train and test the dataset, which consists the features of around 3000 houses; achieved RMSE Score of 0.09 for the test set.</p>
+				  <span class="categories"><i class="fa fa-tag"></i>Python</span>
+			  </div>
+
+            <div class="link-box">
+               <a href="https://github.com/arpitgambhir/Credit-Card-Fraud-Detection">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
             </div>
-            
-            <div class="rows">
-            <h2><b>Guru Gobind Singh Indraprastha University <span style="float:right;">August 2011 - May 2015</span></b></h2>
-			<h3><b>Bachelor of Technology in Instrumentation and Control Engineering</b></h3>
-            <ul>
-				<li>Relevant courses - Data Structures, Object Oriented Programming<li>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>Titanic Survival Prediction</h4>
+				  <p>Implemented a system to analyze which sorts of people survived; used machine learning methods to predict which passengers survived the titanic tragedy.</p>               
+				  <span class="categories"><i class="fa fa-tag"></i>Python</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/arpitgambhir/Credit-Card-Fraud-Detection">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>Credit Card Fraud Detection</h4>
+			      <p>Implemented a system to identify credit card frauds using credit card dataset; used random forest and support vector machines to train and test the system to identify the frauds in the dataset, which consists of over 280,000 transaction details; achieved an accuracy of 97% for the under sampled data.</p>
+				  <span class="categories"><i class="fa fa-tag"></i>Python</span>
+			  </div>
+
+            <div class="link-box">
+               <a href="https://github.com/arpitgambhir/Credit-Card-Fraud-Detection">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>FCW Using Machine Learning</h4>
+			      <p>Implemented a system to generate alerts for cars within warning range; used Scikit-learn library to implement the system; performed 15% better than traditional CAMP Linear algorithm.</p>
+				  <span class="categories"><i class="fa fa-tag"></i>Python, MATLAB</span>
+			  </div>
+
+            <div class="link-box">
+               <a href="https://github.com/arpitgambhir/Credit-Card-Fraud-Detection">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <div class="description-box">
+			      <h4>Human Resources Analytics</h4>
+			      <p>Implemented a system to visualize why the employees of a certain company were leaving prematurely; also implemented which employees will leave the company next; used machine learning algorithms to predict.</p>
+				  <span class="categories"><i class="fa fa-tag"></i>Python</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/arpitgambhir/Credit-Card-Fraud-Detection">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">You can contact me anytime at: 
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <aside class="four columns">
+
+					   <h4>Address</h4>
+					   <p class="address">
+						   Arpit Gambhir<br>
+						   12101 Sterling University Lane,<br>
+						   Apt 2110, Orlando, FL 32826 US<br>
+					   </p>
+					   
+					   <h4>Phone No.</h4>
+					   <p class="address">
+						   (407) 907-8057
+					   </p>
+					   
+					   <h4>Email</h4>
+					   <p class="address">
+						   <a href="mailto:gambhirarpit7@gmail.com" target="_top">gambhirarpit7@gmail.com</a>
+					   </p>
+					   
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/shanondore"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/ArpitGambhir7"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/arpitgambhir/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/arpitgambhir"><i class="fa fa-github"></i></a></li>
             </ul>
-			</div>
-			
-			<div class="rows">
-            <h2><b>Online <span style="float:right;"> January 2017 - Present</span></b></h2>
-			<h3><b>MOOCs</b></h3>
-			<p>Machine Learning (Coursera), Machine Learning A-Z (Udemy), Data Science A-Z (Udemy), Deep Learning Specialization (Coursera), Deep Learning A-Z (Udemy)</p>
-			</div>
-        </div>
-        <div class="bottom-divider"></div>
-    </div>
-<!--End Education Section-->
 
-<!--Begin Skills Section-->   
-    <div id="skills">
-    	<h1>Skills</h1>
-        <div class="top-divider"></div>
-        <div class="content">
-            
-			<div class="col-md-6 bar-grids">
-				<h6>Python, NumPy, Pandas, Matplotlib, Plotly <span> 85% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 85%">
-						</div>
-					</div>
-			</div>
-			
-			<div class="col">
-            <h2>Description of Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper aliquet. Pellentesque adipiscing pulvinar tortor, a adipiscing felis commodo in. Vestibulum dui magna, mattis in bibendum a, congue vitae lectus. In eu odio tortor, vel congue lacus. Donec viverra viverra eros, in egestas ligula adipiscing non. Morbi et ultricies sapien. Duis metus odio, commodo in tempor quis, euismod et ligula. Vivamus tristique condimentum </p>
-            </div>
-            
-            <div class="col col-mid">
-            <h2>Description of Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper aliquet. Pellentesque adipiscing pulvinar tortor, a adipiscing felis commodo in. Vestibulum dui magna, mattis in bibendum a, congue vitae lectus. In eu odio tortor, vel congue lacus. Donec viverra viverra eros, in egestas ligula adipiscing non. Morbi et ultricies sapien. Duis metus odio, commodo in tempor quis, euismod et ligula. Vivamus tristique condimentum </p>
-            </div>
-            
-            <div class="col">
-            <h2>Description of Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper aliquet. Pellentesque adipiscing pulvinar tortor, a adipiscing felis commodo in. Vestibulum dui magna, mattis in bibendum a, congue vitae lectus. In eu odio tortor, vel congue lacus. Donec viverra viverra eros, in egestas ligula adipiscing non. Morbi et ultricies sapien. Duis metus odio, commodo in tempor quis, euismod et ligula. Vivamus tristique condimentum </p>
-            </div>
-        </div>    
-        <div class="bottom-divider"></div>
-    </div>
-<!--End Skills Section-->
+         </div>
 
-<!--Begin Work Section-->  
-    <div id="work">
-    	<h1>Work</h1>
-        <div class="top-divider"></div>
-        	<div class="content">
-            	<ul id="work-thumbs">
-                	<li><a href="images/work/work-full1.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb1.jpg"></a></li>
-                    <li><a href="images/work/work-full2.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb2.jpg"></a></li>
-                    <li><a href="images/work/work-full3.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb3.jpg"></a></li>
-                    <li class="last"><a href="images/work/work-full4.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb4.jpg"></a></li>
-                    <li><a href="images/work/work-full5.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb5.jpg"></a></li>
-                    <li><a href="images/work/work-full6.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb6.jpg"></a></li>
-                    <li><a href="images/work/work-full7.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb7.jpg"></a></li>
-                    <li class="last"><a href="images/work/work-full8.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb8.jpg"></a></li>
-                    <li><a href="images/work/work-full9.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb9.jpg"></a></li>
-                    <li><a href="images/work/work-full10.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb10.jpg"></a></li>
-                    <li><a href="images/work/work-full11.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb11.jpg"></a></li>
-                    <li class="last"><a href="images/work/work-full12.jpg" rel="prettyPhoto[1]" title="Image Description"><img src="images/work/work-thumb12.jpg"></a></li>
-                </ul>
-            </div>
-        <div class="bottom-divider"></div>
-    </div>
-<!--End Work Section-->
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
-<!--Begin Connect Section-->  
-    <div id="connect">
-    	<h1>Connect</h1>
-        <div class="top-divider"></div>
-        	<div class="content">
-            	<div id="form">
-                	<form action="#">
-                    	<span>Name</span>
-                        <input type="text" name="name" class="name" />
-                        <span>Email</span>
-                        <input type="text" name="email" class="email"/>
-                        <span>Message</span>
-                        <textarea class="message"></textarea>
-                        <input type="submit" name="submite" value="Submit" class="submit">
-                    </form>
-                </div>
-                <div id="social-footer">
-                	<h2>Follow Me:</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam risus, dignissim pharetra sagittis sed, adipiscing nec felis. Maecenas non nulla eget ligula semper </p>
-                    <ul id="sm-links">
-                    	<li><a href="#" class="facebook">Facebook</a></li>
-           				<li><a href="#" class="twitter">Twitter</a></li>
-            			<li><a href="#" class="dribble">Dribble</a></li>
-                        <li><a href="#" class="vimeo">Vimeo</a></li>
-                        <li><a href="#" class="youtube">YouTube</a></li>
-                        <li><a href="#" class="linkedin">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-    </div>
-<!--End Connect Section--> 
+      </div>
 
-</div>
+   </footer> <!-- Footer End-->
 
- <!-- The JavaScript -->  
-        <script type="text/javascript">
-    		$(function() {
-                $('#main-menu li a').bind('click',function(event){
-                    var $anchor = $(this);
-                    
-                    $('html, body').stop().animate({
-                        scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1500,'easeInOutExpo');
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-                    event.preventDefault();
-                });
-            });
-			
- 			 $(document).ready(function(){
-    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
-  			});
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
-        </script>
 </body>
+
 </html>
